@@ -1,0 +1,19 @@
+{
+  "name": "skillup25-node2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yakovenko22V/SkillUp25-node2.git"
+  },
+  "author": "Vitaliy Yakovenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yakovenko22V/SkillUp25-node2/issues"
+  },
+  "homepage": "https://github.com/Yakovenko22V/SkillUp25-node2#readme"
+}
