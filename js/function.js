@@ -1,8 +1,8 @@
 const dowbleElem = (arr) => {
     let arrNew = [];
+    if( Array.isArray(arr) === false) {
+        console.log('error'); }
     for (let i = 0; i < arr.length; i++) {
-      if( typeof(arr) !== Array) {
-        return 'error'; }
       arrNew.push(arr[i] * 2);
     }
     return arrNew;
