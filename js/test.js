@@ -15,6 +15,11 @@ describe('dowbleElem: передача не массива', function () {
 
     it('в массиве не только числовые элементы', function () {
         const array2 = ['hello',3]
-        assert.equal(dowbleElem(array2), 'Array')
+        assert.deepEqual(dowbleElem(array2), [6])
+    });
+
+    it('проверка элементов', function () {
+        const array3 = [2,3,4]
+        assert.deepEqual(dowbleElem(array3), [4,6,8])
     });
     })
