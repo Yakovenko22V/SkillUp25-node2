@@ -1,12 +1,17 @@
 const dowbleElem = (arr) => {
     let arrNew = [];
-    if( Array.isArray(arr) === false) {
-        console.log('error'); }
-    for (let i = 0; i < arr.length; i++) {
-      arrNew.push(arr[i] * 2);
+    if (Array.isArray(arr) === false) {
+        return 'error';
     }
-    return arrNew;
-  };
-  // let arr1 = dowbleElem([1, 2, 3, 4, 5]);
-  // console.log(arr1);
-    
+    for (let i = 0; i < arr.length; i++) {
+        arrNew.push(arr[i] * 2);
+    }
+    arrNew = arrNew.filter(Number);
+    if (arrNew.length === 0) {
+        return ('Введите числовые значения')
+    };
+    if (Array.isArray(arrNew) === true) {
+        return 'Array';
+    }
+    return arrNew
+};

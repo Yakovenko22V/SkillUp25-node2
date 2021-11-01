@@ -2,9 +2,9 @@
   "name": "skillup25-node2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "js/test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "js/test.js"
   },
   "repository": {
     "type": "git",
